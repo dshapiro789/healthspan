@@ -26,6 +26,11 @@ const config: Config = {
         'coral-light': '#ff9f85',
         'coral-dark': '#e55a3a',
 
+        // Hot Pink accent
+        'hot-pink': '#FF1493',
+        'hot-pink-light': '#FF69B4',
+        'hot-pink-dark': '#DB147F',
+
         // Legacy aliases for gradual migration
         'deep-navy': '#1a0f3e',
         'navy-light': '#2d1b5e',
@@ -147,6 +152,7 @@ const config: Config = {
         'card-hover': '0 8px 40px rgba(26, 15, 62, 0.3)',
         'glow-periwinkle': '0 0 30px rgba(107, 92, 231, 0.4)',
         'glow-coral': '0 0 30px rgba(255, 107, 74, 0.4)',
+        'glow-hot-pink': '0 0 30px rgba(255, 20, 147, 0.4)',
         'glow-lavender': '0 0 30px rgba(184, 169, 240, 0.3)',
         'inner-glow': 'inset 0 0 30px rgba(107, 92, 231, 0.15)',
       },

@@ -123,7 +123,7 @@ export function UpcomingEvents({ featuredEvent, upcomingEvent }: UpcomingEventsP
                             </p>
                             <div className="mt-4">
                                 <MagneticButton
-                                    variant="coral"
+                                    variant="hot-pink"
                                     href={externalLinks.eventApplication}
                                     external
                                     size="lg"

@@ -124,12 +124,12 @@ export function EventCard({ event, variant = 'default', className }: EventCardPr
             {isUpcoming && event.ticketUrl ? (
               <>
                 <MagneticButton
-                  variant="coral"
+                  variant="hot-pink"
                   href={event.ticketUrl}
                   external
                   size={isFeatured ? 'md' : 'sm'}
                   strength={0.2}
-                  className="shadow-[0_0_20px_rgba(255,107,74,0.3)] hover:shadow-[0_0_30px_rgba(255,107,74,0.5)] border-none"
+                  className="shadow-[0_0_20px_rgba(255,20,147,0.3)] hover:shadow-[0_0_30px_rgba(255,20,147,0.5)] border-none"
                 >
                   Get Tickets
                 </MagneticButton>

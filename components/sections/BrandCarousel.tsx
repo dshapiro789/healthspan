@@ -94,10 +94,10 @@ export function BrandCarousel() {
           >
             Our Ecosystem of{' '}
             <span className="relative inline-block">
-              <span className="text-gradient-coral">Brands</span>
+              <span className="text-[#FF1493]">Brands</span>
               {/* Underline accent */}
               <motion.span
-                className="absolute -bottom-1 left-0 right-0 h-[3px] bg-gradient-to-r from-coral via-coral-light to-transparent rounded-full"
+                className="absolute -bottom-1 left-0 right-0 h-[3px] bg-gradient-to-r from-[#FF1493] via-[#FF69B4] to-transparent rounded-full"
                 initial={{ scaleX: 0, originX: 0 }}
                 animate={isVisible ? { scaleX: 1 } : {}}
                 transition={{ duration: 0.8, delay: 0.4 }}

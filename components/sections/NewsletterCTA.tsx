@@ -65,7 +65,7 @@ export function NewsletterCTA() {
         <div className="absolute top-0 left-0 w-64 h-64 bg-white/5 rounded-full -translate-x-1/2 -translate-y-1/2" />
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-white/5 rounded-full translate-x-1/3 translate-y-1/3" />
         <div className="absolute top-1/2 left-1/4 w-32 h-32 bg-white/5 rounded-lg rotate-45" />
-        
+
         {/* Grid pattern */}
         <svg className="absolute inset-0 w-full h-full opacity-10" xmlns="http://www.w3.org/2000/svg">
           <defs>
@@ -148,7 +148,7 @@ export function NewsletterCTA() {
               />
               <Button
                 type="submit"
-                variant="coral"
+                variant="primary"
                 isLoading={isSubmitting}
                 className="whitespace-nowrap"
               >

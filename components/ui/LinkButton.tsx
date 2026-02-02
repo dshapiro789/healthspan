@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils';
 
 export interface LinkButtonProps {
   href: string;
-  variant?: 'primary' | 'secondary' | 'ghost' | 'gold' | 'coral' | 'outline';
+  variant?: 'primary' | 'secondary' | 'ghost' | 'gold' | 'coral' | 'hot-pink' | 'outline';
   size?: 'sm' | 'md' | 'lg';
   external?: boolean;
   className?: string;
@@ -51,6 +51,11 @@ export function LinkButton({
     coral: `
       bg-coral text-white
       hover:bg-coral-dark hover:shadow-glow-coral
+      active:scale-[0.98]
+    `,
+    'hot-pink': `
+      bg-hot-pink text-white
+      hover:bg-hot-pink-dark hover:shadow-glow-hot-pink
       active:scale-[0.98]
     `,
     outline: `
