@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1B2A"/>
+      <stop offset="100%" style="stop-color:#1B2838"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <polygon points="300,120 340,200 400,200 355,250 375,330 300,280 225,330 245,250 200,200 260,200" fill="none" stroke="#00A896" stroke-width="2" opacity="0.6"/>
+  <polygon points="300,150 325,195 370,195 340,225 352,275 300,250 248,275 260,225 230,195 275,195" fill="#00A896" opacity="0.2"/>
+  <text x="300" y="360" text-anchor="middle" fill="#00A896" font-family="Georgia, serif" font-size="24">Experiential</text>
+</svg>

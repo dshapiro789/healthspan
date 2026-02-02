@@ -1,0 +1,1 @@
+export { SpeakerCard } from './SpeakerCard';

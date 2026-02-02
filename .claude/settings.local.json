@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(npm run build:*)",
+      "Bash(/opt/homebrew/bin/npm run build)",
+      "Bash(PATH=\"/opt/homebrew/Cellar/node/22.8.0/bin:$PATH\" npm run dev:*)",
+      "Bash(PATH=\"/opt/homebrew/Cellar/node/22.8.0/bin:$PATH\" npm install:*)",
+      "Bash(curl:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
